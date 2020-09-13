@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    
-  );
-}
 
-export default App;
+export default () => {
+  return (
+    <React.Fragment>
+      
+    </React.Fragment>
+  );
+};
