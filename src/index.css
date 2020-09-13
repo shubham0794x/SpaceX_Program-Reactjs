@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #eee;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+header h1 {
+  text-indent: 15px;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px 0px 5px 30px;
+}
+main.row {
+  margin: 0px 0px 0px 30px;
+}
+aside {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.filterContainer {
+  padding: 10px 5px;
+  background: #fff;
+}
+.filterContainer h3 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid #959393;
+  padding: 5px;
+  margin: 10px 30px;
+}
+.filterContainer div {
+  clear: both;
+}
+.filterContainer ul li {
+  list-style: none;
+  float: left;
+  margin: 10px 0px;
+}
+li.selected button {
+  background: #B2DF16 !important;
+}
+.filterContainer ul {
+  margin-block-start: 15px;
+  padding-inline-start: 20px;
+}
+.filterContainer ul li button {
+  min-width: 70px;
+  background: #B2DF75;
+  border-radius: 3px;
+  border: none;
+}
+button:focus {
+  outline: none;
+}
+aside h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+.launchRecord h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d539e;
+}
+div.record {
+  border-radius: 5px;
+  background: #fff;
+  padding: 8px;
+  padding: 12px;
+  min-height: 466px;
+}
+.launchRecord img {
+  background: #eee;
+  width: 100%;
+}
+footer {
+  margin-top: 20px;
+}
+footer p {
+  font-size: 18px;
+  text-align: center;
 }
